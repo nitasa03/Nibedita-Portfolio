@@ -1,3 +1,14 @@
+<style>
+  /* Hide the default Minimal theme header */
+  .site-header {
+    display: none;
+  }
+
+  /* Remove extra top spacing where the header was */
+  .page-content {
+    padding-top: 0;
+  }
+</style>
 
 <h1 style="text-align:center; margin-bottom: 40px;">PORTFOLIO</h1>
 
@@ -5,7 +16,7 @@
 
   <!-- Left column -->
   <div style="flex: 1; max-width: 200px; text-align: center;">
-    <img src="/assets/images/profile.png" alt=" " style="width: 160px; margin-bottom: 10px;" />
+    <img src="{{ '/assets/images/profile.png' | relative_url }}" alt=" " style="width: 160px; margin-bottom: 10px;" />
     <p><strong>Nibedita Satapathy</strong><br/>AI/ML Explorer</p>
   </div>
 
@@ -27,8 +38,7 @@
       It transforms images with artistic styles and creative blends, and provides output comparisons so users can clearly see how the model’s transformations differ from the original — helping them understand the creative context behind each transformation.
     </p>
     <p><strong>Try Me on Hugging Face →</strong> <a href="https://huggingface.co/spaces/nibedita03/PixelAlchemy">PixelAlchemy</a></p>
-    <img src="/assets/images/PixelAlchemy_Result.PNG" alt="PixelAlchemy Result Screenshot" style="max-width: 100%; margin-bottom: 20px;" />
-
+    <img src="{{ '/assets/images/PixelAlchemy_Result.PNG' | relative_url }}" alt="PixelAlchemy Result Screenshot" style="max-width: 100%; margin-bottom: 20px;" />
     <hr/>
 
     <h2>💳 Project 2: Credit Card Fraud Detection App</h2>
@@ -37,8 +47,7 @@
       Built with scikit‑learn and LightGBM, deployed for practical demonstrations.
     </p>
     <p><strong>View on GitHub →</strong> <a href="https://github.com/nitasa03/credit_card_fraud_detection_app">Credit Card Fraud Detection</a></p>
-    <img src="/assets/images/fraud_detection_visual.png" alt="Fraud Detection Visual" style="max-width: 100%; margin-bottom: 20px;" />
-
+    <img src="{{ '/assets/images/fraud_detection_visual.png' | relative_url }}" alt="Fraud Detection Visual" style="max-width: 100%; margin-bottom: 20px;" />
     <hr/>
 
     <h2>📬 Contact</h2>

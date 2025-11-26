@@ -3,7 +3,7 @@
 
   <!-- Left column -->
   <div style="flex: 1; max-width: 200px; text-align: center;">
-    <img src="/assets/images/profile.png" alt="Nibedita Satapathy" style="width: 160px; margin-bottom: 10px;" />
+    <img src="/assets/images/profile.png" alt=" " style="width: 160px; margin-bottom: 10px;" />
     <p><strong>Nibedita Satapathy</strong><br/>AI/ML Explorer</p>
   </div>
 

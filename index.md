@@ -1,4 +1,6 @@
 
+<h1 style="text-align:center; margin-bottom: 40px;">PORTFOLIO</h1>
+
 <div style="display: flex; align-items: flex-start; gap: 20px;">
 
   <!-- Left column -->

@@ -1,12 +1,9 @@
----
-layout: default
----
 
 <div style="display: flex; align-items: flex-start;">
 
   <!-- Left column: photo + caption -->
   <div style="flex: 0 0 200px; margin-right: 40px; text-align: center;">
-    <img src="/assets/images/profile.jpg" alt="Nibedita" style="width: 160px; border-radius: 50%; margin-bottom: 10px;" />
+    <img src="/assets/images/profile.png" alt="Nibedita" style="width: 160px; border-radius: 50%; margin-bottom: 10px;" />
     <p><strong>AI/ML Explorer</strong></p>
   </div>
 
@@ -26,7 +23,7 @@ Through my projects, I aim to combine technical rigor with practical impact, sho
 
   **Try Me on Hugging Face →** https://huggingface.co/spaces/nibedita03/PixelAlchemy
 
-  ![PixelAlchemy Result Screenshot](/assets/images/pixelalchemy_result.png)
+  ![PixelAlchemy Result Screenshot](/assets/images/PixelAlchemy_Result.png)
 
   ---
 

@@ -1,11 +1,12 @@
+---
+layout: default
+---
+
 <style>
-  /* 🔹 Hide the default Minimal theme header/title */
-  .site-header,
-  .site-title {
+  /* If the header still renders an empty bar, hide it completely */
+  .site-header {
     display: none !important;
   }
-
-  /* 🔹 Remove extra top padding left by the header */
   .page-content {
     padding-top: 0 !important;
   }
@@ -16,11 +17,11 @@
 <div style="display: flex; align-items: flex-start; gap: 40px;">
 
   <!-- Left column: photo + name -->
-  <div style="flex: 0 0 230px; text-align: center;">
-    <img src="/assets/images/profile.png"
+  <div style="flex: 0 0 260px; text-align: center;">
+    <img src="{{ '/assets/images/profile.png' | relative_url }}"
          alt="Profile picture"
-         style="width: 180px; margin-bottom: 10px;" />
-    <p style="margin-top: 4px; margin-bottom: 0; font-size: 16px;">
+         style="width: 190px; margin-bottom: 10px;" />
+    <p style="margin-top: 4px; margin-bottom: 0; font-size: 15px;">
       <strong style="white-space: nowrap;">Nibedita Satapathy</strong><br/>
       <span>AI/ML Explorer</span>
     </p>
@@ -50,7 +51,7 @@
     <p><strong>Try Me on Hugging Face →</strong>
       <a href="https://huggingface.co/spaces/nibedita03/PixelAlchemy">PixelAlchemy</a>
     </p>
-    <img src="/assets/images/PixelAlchemy_Result.PNG"
+    <img src="{{ '/assets/images/PixelAlchemy_Result.PNG' | relative_url }}"
          alt="PixelAlchemy Result Screenshot"
          style="max-width: 100%; margin-bottom: 20px;" />
 
@@ -66,7 +67,7 @@
         Credit Card Fraud Detection
       </a>
     </p>
-    <img src="/assets/images/fraud_detection_visual.png"
+    <img src="{{ '/assets/images/fraud_detection_visual.png' | relative_url }}"
          alt="Fraud Detection Visual"
          style="max-width: 100%; margin-bottom: 20px;" />
 
@@ -81,4 +82,3 @@
 
   </div>
 </div>
-
